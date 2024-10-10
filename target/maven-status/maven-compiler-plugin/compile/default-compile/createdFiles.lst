@@ -1,0 +1,8 @@
+testCases\DemoLoginTest.class
+pages\demo_open_new_account.class
+testCases\demo_Open_New_Account_Test.class
+pages\DemoLogin.class
+testCases\DemoRegisterTest.class
+utilities\CommonUtilities.class
+pages\DemoRegister.class
+utilities\BaseClass.class
