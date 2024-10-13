@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-10T21:01:52 BST" name="Suite" finished-at="2024-10-10T21:02:52 BST" duration-ms="60048">
+  <suite started-at="2024-10-12T21:53:50 BST" name="Suite" finished-at="2024-10-12T21:54:46 BST" duration-ms="55737">
     <groups>
     </groups>
-    <test started-at="2024-10-10T21:01:52 BST" name="Test Suite Regression" finished-at="2024-10-10T21:02:52 BST" duration-ms="60048">
+    <test started-at="2024-10-12T21:53:50 BST" name="Test Suite Regression" finished-at="2024-10-12T21:54:46 BST" duration-ms="55737">
       <class name="testCases.DemoRegisterTest">
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:testCases.DemoRegisterTest@24097e9b]" started-at="2024-10-10T21:02:04 BST" name="beforetest" finished-at="2024-10-10T21:02:11 BST" duration-ms="6586" status="PASS">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:testCases.DemoRegisterTest@5eb97ced]" started-at="2024-10-12T21:53:58 BST" name="beforetest" finished-at="2024-10-12T21:54:04 BST" duration-ms="5375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method signature="redirectToRegisterPage()[pri:1, instance:testCases.DemoRegisterTest@24097e9b]" started-at="2024-10-10T21:02:11 BST" name="redirectToRegisterPage" finished-at="2024-10-10T21:02:14 BST" duration-ms="3094" status="PASS">
+        <test-method signature="redirectToRegisterPage()[pri:1, instance:testCases.DemoRegisterTest@5eb97ced]" started-at="2024-10-12T21:54:04 BST" name="redirectToRegisterPage" finished-at="2024-10-12T21:54:06 BST" duration-ms="2116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- redirectToRegisterPage -->
-        <test-method signature="fillingRegisterForm()[pri:2, instance:testCases.DemoRegisterTest@24097e9b]" started-at="2024-10-10T21:02:15 BST" name="fillingRegisterForm" finished-at="2024-10-10T21:02:28 BST" duration-ms="13688" status="PASS">
+        <test-method signature="fillingRegisterForm()[pri:2, instance:testCases.DemoRegisterTest@5eb97ced]" started-at="2024-10-12T21:54:06 BST" name="fillingRegisterForm" finished-at="2024-10-12T21:54:16 BST" duration-ms="10067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingRegisterForm -->
-        <test-method signature="submitEmptyRegistration()[pri:3, instance:testCases.DemoRegisterTest@24097e9b]" started-at="2024-10-10T21:02:28 BST" name="submitEmptyRegistration" finished-at="2024-10-10T21:02:30 BST" duration-ms="1746" status="PASS">
+        <test-method signature="submitEmptyRegistration()[pri:3, instance:testCases.DemoRegisterTest@5eb97ced]" started-at="2024-10-12T21:54:16 BST" name="submitEmptyRegistration" finished-at="2024-10-12T21:54:18 BST" duration-ms="1783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitEmptyRegistration -->
-        <test-method signature="invalidRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testCases.DemoRegisterTest@24097e9b]" started-at="2024-10-10T21:02:30 BST" name="invalidRegistration" data-provider="registrationData" finished-at="2024-10-10T21:02:37 BST" duration-ms="6817" status="PASS">
+        <test-method signature="invalidRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testCases.DemoRegisterTest@5eb97ced]" started-at="2024-10-12T21:54:18 BST" name="invalidRegistration" data-provider="registrationData" finished-at="2024-10-12T21:54:28 BST" duration-ms="9706" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidRegistration -->
-        <test-method signature="invalidRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testCases.DemoRegisterTest@24097e9b]" started-at="2024-10-10T21:02:37 BST" name="invalidRegistration" data-provider="registrationData" finished-at="2024-10-10T21:02:43 BST" duration-ms="5560" status="PASS">
+        <test-method signature="invalidRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testCases.DemoRegisterTest@5eb97ced]" started-at="2024-10-12T21:54:28 BST" name="invalidRegistration" data-provider="registrationData" finished-at="2024-10-12T21:54:35 BST" duration-ms="7047" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,29 +145,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidRegistration -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testCases.DemoRegisterTest@24097e9b]" started-at="2024-10-10T21:02:43 BST" name="close" finished-at="2024-10-10T21:02:43 BST" duration-ms="373" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.DemoRegisterTest@5eb97ced]" started-at="2024-10-12T21:54:35 BST" name="close" finished-at="2024-10-12T21:54:35 BST" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testCases.DemoRegisterTest -->
       <class name="testCases.DemoLoginTest">
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:testCases.DemoLoginTest@5eb97ced]" started-at="2024-10-10T21:01:52 BST" name="beforetest" finished-at="2024-10-10T21:02:04 BST" duration-ms="12061" status="PASS">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:testCases.DemoLoginTest@68ba310d]" started-at="2024-10-12T21:53:50 BST" name="beforetest" finished-at="2024-10-12T21:53:58 BST" duration-ms="7983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method signature="emptyLoginSubmission()[pri:1, instance:testCases.DemoLoginTest@5eb97ced]" started-at="2024-10-10T21:02:43 BST" name="emptyLoginSubmission" finished-at="2024-10-10T21:02:44 BST" duration-ms="1251" status="PASS">
+        <test-method signature="emptyLoginSubmission()[pri:1, instance:testCases.DemoLoginTest@68ba310d]" started-at="2024-10-12T21:54:35 BST" name="emptyLoginSubmission" finished-at="2024-10-12T21:54:37 BST" duration-ms="1617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyLoginSubmission -->
-        <test-method signature="invalidLoginSubmission()[pri:2, instance:testCases.DemoLoginTest@5eb97ced]" started-at="2024-10-10T21:02:44 BST" name="invalidLoginSubmission" finished-at="2024-10-10T21:02:49 BST" duration-ms="5047" status="PASS">
+        <test-method signature="invalidLoginSubmission()[pri:2, instance:testCases.DemoLoginTest@68ba310d]" started-at="2024-10-12T21:54:37 BST" name="invalidLoginSubmission" finished-at="2024-10-12T21:54:43 BST" duration-ms="5598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginSubmission -->
-        <test-method signature="validLoginSubmission()[pri:3, instance:testCases.DemoLoginTest@5eb97ced]" started-at="2024-10-10T21:02:49 BST" name="validLoginSubmission" finished-at="2024-10-10T21:02:52 BST" duration-ms="2719" status="PASS">
+        <test-method signature="validLoginSubmission()[pri:3, instance:testCases.DemoLoginTest@68ba310d]" started-at="2024-10-12T21:54:43 BST" name="validLoginSubmission" finished-at="2024-10-12T21:54:45 BST" duration-ms="2813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginSubmission -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testCases.DemoLoginTest@5eb97ced]" started-at="2024-10-10T21:02:52 BST" name="close" finished-at="2024-10-10T21:02:52 BST" duration-ms="290" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.DemoLoginTest@68ba310d]" started-at="2024-10-12T21:54:45 BST" name="close" finished-at="2024-10-12T21:54:46 BST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
