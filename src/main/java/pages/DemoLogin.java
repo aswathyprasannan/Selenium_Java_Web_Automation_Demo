@@ -117,11 +117,11 @@ public class DemoLogin
 			Allure.step("Clicked on Logo image");
 			
 			takeAndAttachScreenshot("Step 1: Initial State");
-			wait.until(ExpectedConditions.visibilityOfElementLocated(username)).sendKeys("Kiarath");
+			wait.until(ExpectedConditions.visibilityOfElementLocated(username)).sendKeys("Kiaratb");
 			Allure.step("Entered valid username");
 			
 			takeAndAttachScreenshot("Step 2: After Action 1");
-	        wait.until(ExpectedConditions.visibilityOfElementLocated(password)).sendKeys("Kiarath");
+	        wait.until(ExpectedConditions.visibilityOfElementLocated(password)).sendKeys("Kiaratb");
 			Allure.step("Entered valid password");
 			
 			takeAndAttachScreenshot("Step 3: After Action 2");

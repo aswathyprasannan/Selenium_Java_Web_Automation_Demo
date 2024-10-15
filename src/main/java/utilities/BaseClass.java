@@ -15,8 +15,8 @@ public class BaseClass {
 
 //		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-//		driver = new FirefoxDriver();
-//		driver =new EdgeDriver();
+		driver = new FirefoxDriver();
+		driver =new EdgeDriver();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		tdriver.set(driver);

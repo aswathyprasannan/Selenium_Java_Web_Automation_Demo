@@ -10,6 +10,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
@@ -21,12 +22,28 @@ public class DemoLoginTest
 {
 	private WebDriver driver;
 	
-	@BeforeTest
-	public void beforetest() throws InterruptedException
+	@BeforeClass
+	@Parameters("browser")
+	public void setup(String browser) throws Exception 
 	{
-		BaseClass bs 	= 	new BaseClass();
-		driver 			= 	bs.initialize_driver();
-		driver.get("https://parabank.parasoft.com/parabank/index.htm");
+		if (browser.equalsIgnoreCase("firefox")) 
+		{
+			driver = new FirefoxDriver();
+			driver.get("https://parabank.parasoft.com/parabank/index.htm");
+		} else if (browser.equalsIgnoreCase("chrome")) 
+		{
+			driver = new ChromeDriver();
+			driver.get("https://parabank.parasoft.com/parabank/index.htm");
+		} else if (browser.equalsIgnoreCase("Edge"))
+		{
+			driver = new EdgeDriver();
+			driver.get("https://parabank.parasoft.com/parabank/index.htm");
+			
+		} else 
+		{
+			throw new Exception("Incorrect Browser");
+			
+		}
 		driver.manage().window().maximize();
 	}
 	

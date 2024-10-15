@@ -111,15 +111,15 @@ public class DemoRegister
 	        Allure.step("Entered ssnField");
 	        
 	        takeAndAttachScreenshot("Step 8: After Action 7");
-	        driver.findElement(usernameField).sendKeys("Kiarath");
+	        driver.findElement(usernameField).sendKeys("Kiaratb");
 	        Allure.step("Entered usernameField");
 	        
 	        takeAndAttachScreenshot("Step 9: After Action 8");
-	        driver.findElement(passwordField).sendKeys("Kiarath");
+	        driver.findElement(passwordField).sendKeys("Kiaratb");
 	        Allure.step("Entered passwordField");
 	        
 	        takeAndAttachScreenshot("Step 10: After Action 9");
-	        driver.findElement(repeatedPasswordField).sendKeys("Kiarath");
+	        driver.findElement(repeatedPasswordField).sendKeys("Kiaratb");
 	        Allure.step("Entered repeatedPasswordField");
 	        
 	        takeAndAttachScreenshot("Step 11: After Action 10");
